@@ -1,4 +1,5 @@
 ## 介绍
+[![smithery badge](https://smithery.ai/badge/@StevenFengLi/haiguitangmcp)](https://smithery.ai/server/@StevenFengLi/haiguitangmcp)
 
 本项目旨在让大语言模型扮演海龟汤游戏主持人，使你独自一人也能享受海龟汤游戏的快乐。
 
@@ -6,7 +7,15 @@
 
 在使用本项目前，你需要确保你的电脑上已经安装了Python和uv。
 
+### Installing via Smithery
 
+To install haiguitangmcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@StevenFengLi/haiguitangmcp):
+
+```bash
+npx -y @smithery/cli install @StevenFengLi/haiguitangmcp --client claude
+```
+
+### Manual Installation
 你首先需要克隆整个项目，然后运行uv sync安装依赖。
 
 ```bash
@@ -126,4 +135,3 @@ uv sync
 - 如果你希望用户游玩之前有所预警，你可以在标题，也就是谜题文件的名称中注明。
 - 请注意海龟汤的版权问题。
 - 你可以在海龟汤文件中添加作者和提交者信息。
-
